@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div >
       {section1({users: users})}
-      {section2()}
+      
       
     </div>
   )
