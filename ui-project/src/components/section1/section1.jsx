@@ -6,7 +6,7 @@ const section1 = (props) => {
   return (
     <div className='h-screen w-full'>
     {navbar()}
-    {page1contant(users=props.users)}
+    {page1contant({users: props.users })}
     </div>
   )
 }
