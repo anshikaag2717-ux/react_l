@@ -1,12 +1,13 @@
-import React from 'react'
-import navbar from './navbar'
-import page1contant from './page1contant'
+
+import Navbar from './Navbar'
+
+import PageContant from './PageContant'
 
 const section1 = (props) => {
   return (
     <div className='h-screen w-full'>
-    {navbar()}
-    {page1contant({users: props.users })}
+    <Navbar />
+    {PageContant({users: props.users })}
     </div>
   )
 }

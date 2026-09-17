@@ -1,6 +1,6 @@
 import React from 'react'
 
-const lefttext = () => {
+const LeftText = () => {
   return (
     <div className='mb-5 h-full w-1/3 flex flex-col  '>
         <div className='p-6'>
@@ -12,4 +12,4 @@ const lefttext = () => {
   )
 }
 
-export default lefttext
+export default LeftText

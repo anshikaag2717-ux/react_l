@@ -1,6 +1,6 @@
 import React from 'react'
-import section1 from './components/section1/section1'
-import section2 from './components/section2/section2'
+import Section1 from './components/section1/Section1'
+
 
 const App = () => {
 
@@ -18,11 +18,16 @@ const App = () => {
       img:'https://plus.unsplash.com/premium_photo-1661658537773-a38f4df454dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D',
       intro:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, cumque.',
       tag: 'Underbanked'
-    }
+    },
+    { 
+      img:'https://plus.unsplash.com/premium_photo-1661630621969-6d9faac03f9f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      intro:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, cumque.',
+      tag: 'Satisfied'}
+      
     ]
   return (
     <div >
-      {section1({users: users})}
+      {Section1({users: users})}
       
       
     </div>
